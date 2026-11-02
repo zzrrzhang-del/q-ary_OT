@@ -1,0 +1,7 @@
+workload,delta,N,M,B1000_q,B1000_ratio,B100000_q,B100000_ratio,B1000000_q,B1000000_ratio
+4-bit LUT backend,4,16,100,4,0.925,16,0.544,16,0.534
+8-bit LUT interactive backend,8,256,100,4,0.925,256,0.524,256,0.504
+8-bit LUT moderate backend,8,256,10000,2,1.000,16,0.712,256,0.543
+12-bit LUT moderate backend,12,4096,10000,2,1.000,4,0.646,64,0.458
+Private sampling backend,8,256,100,4,0.925,256,0.524,256,0.504
+Large-batch backend,8,256,1000000,2,1.000,2,1.000,2,1.000

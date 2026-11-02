@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\small
+\caption{Radix-dependent preprocessing ratios. Ratios compare exact backend communication against the in-family binary baseline and exclude payload masking, online LUT communication, and other application phases. The last column reports the minimum communication ratio to the corresponding binary CCG instance over the displayed $B_{\rm base}$ points.}
+\label{tab:application-cases}
+\begin{tabular}{L{.30\linewidth}rrrrrrr}
+\toprule
+Backend workload & $\delta$ & $N$ & $M$ & $q^\star_{10^3}$ & $q^\star_{10^5}$ & $q^\star_{10^6}$ & \shortstack{min. comm.\\ratio} \\
+\midrule
+4-bit LUT backend & 4 & 16 & 100 & 4 & 16 & 16 & 0.534 \\
+8-bit LUT interactive backend & 8 & 256 & 100 & 4 & 256 & 256 & 0.504 \\
+8-bit LUT moderate backend & 8 & 256 & 10000 & 2 & 16 & 256 & 0.543 \\
+12-bit LUT moderate backend & 12 & 4096 & 10000 & 2 & 4 & 64 & 0.458 \\
+Private sampling backend & 8 & 256 & 100 & 4 & 256 & 256 & 0.504 \\
+Large-batch backend & 8 & 256 & 1000000 & 2 & 2 & 2 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

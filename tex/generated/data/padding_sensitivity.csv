@@ -1,0 +1,25 @@
+s,delta,B_base_bits,M,certificate,selected_q
+40,8,1000,100,cert. non-bin. q=4,4
+40,8,1000,10000,cert. binary,2
+40,8,100000,100,cert. non-bin. q=256,256
+40,8,100000,10000,cert. non-bin. q=16,16
+40,12,10000,100,cert. non-bin. q=64,64
+40,12,10000,10000,dep. (selected q=4),4
+40,12,100000,100,cert. non-bin. q=64,64
+40,12,100000,10000,cert. non-bin. q=64,64
+64,8,1000,100,cert. non-bin. q=4,4
+64,8,1000,10000,cert. binary,2
+64,8,100000,100,cert. non-bin. q=256,256
+64,8,100000,10000,cert. non-bin. q=16,16
+64,12,10000,100,cert. non-bin. q=64,64
+64,12,10000,10000,dep. (selected q=4),4
+64,12,100000,100,cert. non-bin. q=64,64
+64,12,100000,10000,cert. non-bin. q=64,64
+128,8,1000,100,cert. non-bin. q=4,4
+128,8,1000,10000,cert. binary,2
+128,8,100000,100,cert. non-bin. q=256,256
+128,8,100000,10000,cert. non-bin. q=16,16
+128,12,10000,100,cert. non-bin. q=64,64
+128,12,10000,10000,dep. (selected q=4),4
+128,12,100000,100,cert. non-bin. q=64,64
+128,12,100000,10000,cert. non-bin. q=4,4

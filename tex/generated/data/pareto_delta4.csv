@@ -1,0 +1,4 @@
+q,r,n_r,n_r*r,pareto,griesmer_gap,overshoot
+2,1,240,240,True,1.000,1.000
+4,2,160,320,True,1.000,1.000
+16,4,128,512,True,1.000,1.000

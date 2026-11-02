@@ -1,0 +1,27 @@
+delta,kappa,s,r,q,k,s_r,d_star,method,n,d_guaranteed,n*r,griesmer,gap,overshoot,parent_n,parent_k,bch_start,bch_degree,external_lower_bound,external_upper_bound,source_url,verified,note
+4,128,128,1,2,4,128,128,juxtaposed simplex,240,128,240,240,1,1,15,4,,,,,,formula,explicit construction
+4,128,128,2,4,2,128,128,juxtaposed simplex,160,128,320,160,1,1,5,2,,,,,,formula,explicit construction
+4,128,128,2,4,2,128,128,projective-line Griesmer,160,128,320,160,1,1,,,,,,,,theorem,Griesmer optimal for k=2
+4,128,128,4,16,1,128,128,juxtaposed simplex,128,128,512,128,1,1,1,1,,,,,,formula,explicit construction
+4,128,128,4,16,1,128,128,repetition,128,128,512,128,1,1,,,,,,,,explicit,optimal for k=1
+8,128,128,1,2,8,128,128,juxtaposed simplex,255,128,255,255,1,1,255,8,,,,,,formula,explicit construction
+8,128,128,1,2,8,128,128,shortened BCH,255,128,255,255,1,1,255,8,0,247,,,,coset-degree,BCH designed-distance guarantee
+8,128,128,2,4,4,128,128,juxtaposed simplex,170,128,340,170,1,1,85,4,,,,,,formula,explicit construction
+8,128,128,4,16,2,128,128,juxtaposed simplex,136,128,544,136,1,1,17,2,,,,,,formula,explicit construction
+8,128,128,4,16,2,128,128,projective-line Griesmer,136,128,544,136,1,1,,,,,,,,theorem,Griesmer optimal for k=2
+8,128,128,8,256,1,128,128,juxtaposed simplex,128,128,1024,128,1,1,1,1,,,,,,formula,explicit construction
+8,128,128,8,256,1,128,128,repetition,128,128,1024,128,1,1,,,,,,,,explicit,optimal for k=1
+12,128,128,1,2,12,128,128,juxtaposed simplex,4095,2048,4095,259,15.8108,16,4095,12,,,,,,formula,explicit construction
+12,128,128,1,2,12,128,128,shortened BCH,313,128,313,259,1.20849,1,315,14,1,301,,,,coset-degree,BCH designed-distance guarantee
+12,128,128,2,4,6,128,128,juxtaposed simplex,1365,1024,2730,172,7.93605,8,1365,6,,,,,,formula,explicit construction
+12,128,128,2,4,6,128,128,shortened BCH,188,128,376,172,1.09302,1,189,7,1,182,,,,coset-degree,BCH designed-distance guarantee
+12,128,128,2,4,6,128,128,CodeTables witness,177,128,354,172,1.02907,1,,,,,128,129,https://www.codetables.de/BKLC/BKLC.php?k=6&n=177&q=4,online table,lower=128; upper=129; accessed=2026-08-10
+12,128,128,3,8,4,129,129,juxtaposed simplex,585,512,1755,150,3.9,3.96899,585,4,,,,,,formula,explicit construction
+12,128,128,3,8,4,129,129,shortened BCH,184,129,552,150,1.22667,1,189,9,1,180,,,,coset-degree,BCH designed-distance guarantee
+12,128,128,4,16,3,128,128,juxtaposed simplex,273,256,1092,137,1.9927,2,273,3,,,,,,formula,explicit construction
+12,128,128,4,16,3,128,128,shortened BCH,153,128,612,137,1.11679,1,153,3,10,150,,,,coset-degree,BCH designed-distance guarantee
+12,128,128,6,64,2,132,132,juxtaposed simplex,195,192,1170,135,1.44444,1.45455,65,2,,,,,,formula,explicit construction
+12,128,128,6,64,2,132,132,projective-line Griesmer,135,132,810,135,1,1,,,,,,,,theorem,Griesmer optimal for k=2
+12,128,128,6,64,2,132,132,shortened BCH,143,132,858,135,1.05926,1,143,2,78,141,,,,coset-degree,BCH designed-distance guarantee
+12,128,128,12,4096,1,132,132,juxtaposed simplex,132,132,1584,132,1,1,1,1,,,,,,formula,explicit construction
+12,128,128,12,4096,1,132,132,repetition,132,132,1584,132,1,1,,,,,,,,explicit,optimal for k=1

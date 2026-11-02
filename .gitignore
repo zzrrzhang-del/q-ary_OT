@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+tex/generated/data/codetables_q4_177_6_matrix.csv
+tex/generated/data/magma_certificates_input.m

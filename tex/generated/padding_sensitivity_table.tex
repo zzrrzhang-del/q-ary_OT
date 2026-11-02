@@ -1,0 +1,23 @@
+\begin{table}
+\centering
+\small
+\caption{Padding-sensitivity check at $\kappa=128$. B, NB, and CD denote certified binary, certified non-binary advantage, and code-dependent, respectively. For the available constructions, the sampled certificate class is stable across $s\in\{40,64,128\}$; one high-cost $\delta=12$ point changes the selected non-binary construction.}
+\label{tab:padding-sensitivity}
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrrL{.19\linewidth}L{.19\linewidth}L{.19\linewidth}}
+\toprule
+$\delta$ & $B_{\rm base}$ & $M$ & $s=40$ & $s=64$ & $s=128$ \\
+\midrule
+8 & 1000 & 100 & NB ($q=4$) & NB ($q=4$) & NB ($q=4$) \\
+8 & 1000 & 10000 & B & B & B \\
+8 & 100000 & 100 & NB ($q=256$) & NB ($q=256$) & NB ($q=256$) \\
+8 & 100000 & 10000 & NB ($q=16$) & NB ($q=16$) & NB ($q=16$) \\
+12 & 10000 & 100 & NB ($q=64$) & NB ($q=64$) & NB ($q=64$) \\
+12 & 10000 & 10000 & CD ($q_{\rm sel}=4$) & CD ($q_{\rm sel}=4$) & CD ($q_{\rm sel}=4$) \\
+12 & 100000 & 100 & NB ($q=64$) & NB ($q=64$) & NB ($q=64$) \\
+12 & 100000 & 10000 & NB ($q=64$) & NB ($q=64$) & NB ($q=4$) \\
+\bottomrule
+\end{tabular}
+\endgroup
+\end{table}

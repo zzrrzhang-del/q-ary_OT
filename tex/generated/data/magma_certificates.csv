@@ -1,0 +1,7 @@
+label,q,expected_n,magma_n,expected_k,magma_k,target_d,magma_min_d,ok,method,method_description
+q2,2,313,313,12,12,128,135,true,b2,"BCHCode(GF(2),315,128), shortened by 2"
+q4,4,177,177,6,6,128,128,true,ct4,CodeTables stored generator matrix
+q8,8,184,184,4,4,129,135,true,b8,"BCHCode(GF(8),189,129,1), shortened by 5"
+q16,16,153,153,3,3,128,135,true,b16,"BCHCode(GF(16),153,128,10)"
+q64,64,135,135,2,2,132,132,true,pl64,projective-line multiplicity construction
+q4096,4096,132,132,1,1,132,132,true,rep,repetition code

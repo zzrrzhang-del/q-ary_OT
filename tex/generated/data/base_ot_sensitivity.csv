@@ -1,0 +1,16 @@
+q,B_base_bits,status,threshold,integer_region
+4,100,never,-412,never
+4,1000,M < threshold,488,487
+4,10000,M < threshold,9488,9487
+4,100000,M < threshold,99488,99487
+4,1000000,M < threshold,999488,999487
+16,100,never,-470.824,never
+16,1000,never,-100.235,never
+16,10000,M < threshold,3605.65,3605
+16,100000,M < threshold,40664.5,40664
+16,1000000,M < threshold,411253,411252
+256,100,never,-495.485,never
+256,1000,never,-346.85,never
+256,10000,M < threshold,1139.5,1139
+256,100000,M < threshold,16003,16002
+256,1000000,M < threshold,164638,164637

@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-08-10",
+  "deltas": [
+    4,
+    8,
+    12
+  ],
+  "kappa": 128,
+  "note": "CodeTables probes are best-known-table witnesses, not local generator-matrix verification.",
+  "s": 128,
+  "use_codetables": true
+}

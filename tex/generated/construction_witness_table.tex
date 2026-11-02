@@ -1,0 +1,28 @@
+\begin{table}
+\centering
+\small
+\caption{Construction witnesses for $\kappa=s=128$. The column $n_{\rm simp}$ is the repeated-simplex length, while $n$ is the selected admissible witness used in the cost model. The check column records the proof or verification source.}
+\label{tab:construction-witnesses}
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrrrrrrll}
+\toprule
+$\delta$ & $q$ & $k$ & $s_r$ & $d^\star$ & $n_{\rm simp}$ & $n$ & method & check \\
+\midrule
+4 & 2 & 4 & 128 & 128 & 240 & 240 & simplex & formula \\
+4 & 4 & 2 & 128 & 128 & 160 & 160 & proj.-line & theorem \\
+4 & 16 & 1 & 128 & 128 & 128 & 128 & repetition & explicit \\
+8 & 2 & 8 & 128 & 128 & 255 & 255 & simplex & formula \\
+8 & 4 & 4 & 128 & 128 & 170 & 170 & simplex & formula \\
+8 & 16 & 2 & 128 & 128 & 136 & 136 & proj.-line & theorem \\
+8 & 256 & 1 & 128 & 128 & 128 & 128 & repetition & explicit \\
+12 & 2 & 12 & 128 & 128 & 4095 & 313 & BCH & Magma \\
+12 & 4 & 6 & 128 & 128 & 1365 & 177 & CodeTables & CT+Magma \\
+12 & 8 & 4 & 129 & 129 & 585 & 184 & BCH & Magma \\
+12 & 16 & 3 & 128 & 128 & 273 & 153 & BCH & Magma \\
+12 & 64 & 2 & 132 & 132 & 195 & 135 & proj.-line & theorem \\
+12 & 4096 & 1 & 132 & 132 & 132 & 132 & repetition & explicit \\
+\bottomrule
+\end{tabular}
+\endgroup
+\end{table}

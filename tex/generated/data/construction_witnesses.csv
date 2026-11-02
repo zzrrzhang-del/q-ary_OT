@@ -1,0 +1,14 @@
+delta,q,k,s_r,d_star,simplex_n,selected_n,griesmer,method,verification
+4,2,4,128,128,240,240,240,juxtaposed simplex,formula
+4,4,2,128,128,160,160,160,projective-line Griesmer,theorem
+4,16,1,128,128,128,128,128,repetition,explicit
+8,2,8,128,128,255,255,255,juxtaposed simplex,formula
+8,4,4,128,128,170,170,170,juxtaposed simplex,formula
+8,16,2,128,128,136,136,136,projective-line Griesmer,theorem
+8,256,1,128,128,128,128,128,repetition,explicit
+12,2,12,128,128,4095,313,259,shortened BCH,Magma
+12,4,6,128,128,1365,177,172,CodeTables witness,CT+Magma
+12,8,4,129,129,585,184,150,shortened BCH,Magma
+12,16,3,128,128,273,153,137,shortened BCH,Magma
+12,64,2,132,132,195,135,135,projective-line Griesmer,theorem
+12,4096,1,132,132,132,132,132,repetition,explicit

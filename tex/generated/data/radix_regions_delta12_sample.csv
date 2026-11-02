@@ -1,0 +1,26 @@
+M,B_base_bits,certificate_class,certified_nonbinary_q,selected_q
+1,100,certified binary,2,2
+1,1000,certified non-binary advantage,4,4
+1,10000,certified non-binary advantage,64,64
+1,100000,certified non-binary advantage,64,64
+1,1000000,certified non-binary advantage,4096,4096
+31.6228,100,certified binary,2,2
+31.6228,1000,certified non-binary advantage,4,4
+31.6228,10000,certified non-binary advantage,64,64
+31.6228,100000,certified non-binary advantage,64,64
+31.6228,1000000,certified non-binary advantage,4096,4096
+1000,100,certified binary,2,2
+1000,1000,code-dependent,,4
+1000,10000,certified non-binary advantage,4,4
+1000,100000,certified non-binary advantage,64,64
+1000,1000000,certified non-binary advantage,4096,4096
+31622.8,100,certified binary,2,2
+31622.8,1000,certified binary,2,2
+31622.8,10000,code-dependent,,4
+31622.8,100000,certified non-binary advantage,4,4
+31622.8,1000000,certified non-binary advantage,64,64
+1e+06,100,certified binary,2,2
+1e+06,1000,certified binary,2,2
+1e+06,10000,certified binary,2,2
+1e+06,100000,certified binary,2,2
+1e+06,1000000,code-dependent,,4

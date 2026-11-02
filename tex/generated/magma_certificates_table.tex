@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\small
+\caption{Magma construction certificates for the selected $\delta=12$ code candidates. The column $d_{\rm Magma}$ is the minimum distance returned by Magma for the constructed code.}
+\label{tab:magma-certificates}
+\begin{tabular}{rrrrrL{.42\linewidth}}
+\toprule
+$q$ & $n$ & $k$ & $d^\star$ & $d_{\rm Magma}$ & source \\
+\midrule
+2 & 313 & 12 & 128 & 135 & BCHCode(GF(2),315,128), shortened by 2 \\
+4 & 177 & 6 & 128 & 128 & CodeTables stored generator matrix \\
+8 & 184 & 4 & 129 & 135 & BCHCode(GF(8),189,129,1), shortened by 5 \\
+16 & 153 & 3 & 128 & 135 & BCHCode(GF(16),153,128,10) \\
+64 & 135 & 2 & 132 & 132 & projective-line multiplicity construction \\
+4096 & 132 & 1 & 132 & 132 & repetition code \\
+\bottomrule
+\end{tabular}
+\end{table}

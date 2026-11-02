@@ -1,0 +1,6 @@
+label,B_base_bits,measurement_anchor,interpretation
+sub-classical stress,100,,below reported public-key base-OT communication; included only as a lower stress point
+classical EOT anchor,1000,"CO15 112 B, Endemic-DDH 145 B, NP01 165 B",same order as reported classical one-out-of-two base OTs
+intermediate,10000,,between classical and Kyber-sized base-OT messages
+Kyber-scale sensitivity point,100000,"Endemic-Kyber 5,934 B",conservative point above the reported Kyber-based base OT
+stress upper point,1000000,,"deployment stress point for extra framing, latency, or constrained-client overhead"

@@ -1,0 +1,10 @@
+Magma V2.12-9     Fri Aug 14 2026 17:30:21    [Seed = 2054090793]
+Type ? for help.  Type <Ctrl>-D to quit.
+CERT|q2|2|313|313|12|12|128|135|true|b2
+CERT|q4|4|177|177|6|6|128|128|true|ct4
+CERT|q8|8|184|184|4|4|129|135|true|b8
+CERT|q16|16|153|153|3|3|128|135|true|b16
+CERT|q64|64|135|135|2|2|132|132|true|pl64
+CERT|q4096|4096|132|132|1|1|132|132|true|rep
+
+Total time: 4.734 seconds, Total memory usage: 41.74MB
